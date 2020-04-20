@@ -1,0 +1,68 @@
+/* start media-queries */
+@media screen and (max-width:980px){
+    .left-area{
+        float:none;
+        width:100%
+    }
+    .right-area{
+        float:none;
+        width:100%
+    }
+    .left-area p{
+        width:100%;
+    }
+}
+@media screen and (max-width:768px){
+    .logo-area{
+        width:100%;
+        float:none;
+        text-align:center;
+    }
+    .login-area{
+        width:405px;
+        margin:15px auto;
+        float:none;
+    }
+    .login-area form{
+        float:none;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:576px){
+    .container{
+        width:80%;
+    }
+    .login-area{
+        width:100%;
+    }
+    .login-area .email,
+    .login-area .password,
+    .login-area .login{
+        float:none;
+        width:100%;
+        margin-right:0;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"]{
+        width:100%;
+        box-sizing:border-box;
+    }
+    .login-area input[type="submit"]{
+        margin-top:10px;
+    }
+    .login-area label{
+    font-size:14px;
+    margin-bottom:5px;
+    }
+    .brith-date{
+        margin-bottom:5px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .container{
+        width:85%;
+    }
+}
+
+/* end media-queries */
